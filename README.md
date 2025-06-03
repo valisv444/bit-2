@@ -9,7 +9,7 @@ La página fue desarrollada desde cero utilizando contenido original en HTML, y 
 El diseño es completamente **responsive**, adaptándose correctamente a diferentes resoluciones de pantalla como 575px, 576px, 768px y 982px.  
 Durante el desarrollo se aplicaron buenas prácticas como:
 - Nombres de archivos y carpetas en minúsculas, sin acentos ni espacios.
-- Uso del modo estricto en JavaScript (`'use strict';`).
+- Uso del modo estricto en JavaScript.
 - Separación de responsabilidades en el código (HTML para estructura, CSS para estilos, JS para lógica).
 - Organización clara de archivos y carpetas.
 
@@ -21,7 +21,7 @@ Además, el sitio fue desplegado correctamente en **GitHub Pages**, y el código
 - CSS3 (estilos personalizados)
 - Bootstrap 5 (estilos rápidos y responsive, opcional)
 - JavaScript (interactividad, lectura de JSON y renderizado dinámico)
-- JSON (`file.json` con los datos del grupo)
+- JSON (con los datos del grupo)
 - Git (control de versiones)
 - GitHub (repositorio remoto y despliegue con GitHub Pages)
 
