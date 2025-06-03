@@ -1,12 +1,59 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="./assets/favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Nuestro grupo</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="./assets/logo-bit.jpg"
+        alt="Logo del grupo"
+        class="header__logo"
+      />
+    </header>
+
+    <section class="intro">
+      <h2 class="intro__titulo">Portafolio de Estudiantes</h2>
+      <p class="intro__texto">
+        En esta página se muestra la información de cada uno de los estudiantes
+        que formamos parte del bootcamp de Desarrollo Web en el instituto BIT,
+        junto con la intensidad horaria que hemos cursado. A lo largo del
+        programa, hemos aprendido contenidos fundamentales como HTML, CSS,
+        JavaScript, Bootstrap, JSON, diseño responsive, formularios, semántica,
+        además del uso de herramientas como GIT y GitHub. Los proyectos y
+        calificaciones que se presentan aquí son trabajos individuales en los
+        que aplicamos estos conocimientos. Las notas reflejan si cumplimos con
+        los parámetros establecidos para cada actividad y si realizamos la
+        entrega dentro del tiempo indicado. Todo lo que se expone representa el
+        esfuerzo y el proceso de aprendizaje que hemos llevado durante el
+        bootcamp.
+      </p>
+    </section>
+
+    <main class="main">
+      <div id="cards-container" class="cards-container"></div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__socials">
+        <a href="https://github.com/valisv444/bit-2" target="_blank">
+          <img src="./assets/github-logo.webp" alt="" class="footer__icon" />
+        </a>
+        <a href="https://www.instagram.com/kinmitti/" target="_blank">
+          <img src="./assets/instagram-logo.avif" alt="" class="footer__icon" />
+        </a>
+      </div>
+      &copy; 2025 Todos los derechos reservados | Andrea valentina moreno pardo
+    </footer>
+
+    <script src="./main.js" defer></script>
+  </body>
 </html>
