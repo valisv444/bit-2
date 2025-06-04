@@ -19,7 +19,6 @@ Además, el sitio fue desplegado correctamente en **GitHub Pages**, y el código
 
 - HTML5 (estructura del sitio web)
 - CSS3 (estilos personalizados)
-- Bootstrap 5 (estilos rápidos y responsive, opcional)
 - JavaScript (interactividad, lectura de JSON y renderizado dinámico)
 - JSON (con los datos del grupo)
 - Git (control de versiones)
